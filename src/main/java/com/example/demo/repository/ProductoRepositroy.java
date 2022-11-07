@@ -1,11 +1,10 @@
 package com.example.demo.repository;
 
+import com.example.demo.model.Producto;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.model.Cliente;
-
-@Repository("clienterepository")
-public interface ClienteRepository extends CrudRepository<Cliente, Long>{
+@Repository("productorepository")
+public interface ProductoRepositroy  extends CrudRepository<Producto, Long>{
 
 }
